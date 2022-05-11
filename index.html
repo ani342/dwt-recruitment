@@ -1,0 +1,138 @@
+<!-- As part of your recruitment process we require you
+  to write CSS and JS for the HTML template provided -->
+
+<!-- You should NOT change make any modifications to this file. -->
+<!-- You are allowed to only add attribute to the tags 
+  which will let you select them in your CSS and JS -->
+
+<!-- Refer to the attached screenshot for inspiration -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAKSH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header>
+      <div class="header">
+          <i class="fa fa-bars hamburger-icon"></i>
+          <h1 class="daksh-heading">DAKSH</h1>
+      </div>
+
+      <div class="side-nav-container">
+        <nav class="side-nav">
+          <span><i class="fa fa-close"></i></span>
+          <ul>
+            <a href="#"><li>HOME</li></a>
+            <a href="#"><li>EVENTS</li></a>
+            <a href="#"><li>TEAM</li></a>
+            <a href="#"><li>CONTACT</li></a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="image-section">
+      <article>
+        <div class="trial">
+        <div class="image-container">
+          <img src="undraw_profile_data_re_v81r.svg" alt="Contact Us" height="300px"/>
+        </div>
+        <div class="image-content">
+          <p>
+            We are always in the lookout for feedback and suggestions. Shoot your
+            queries and rest assured, we'll get back to you ASAP!
+          </p>
+        </div>
+        </div>
+      </article>
+    </section>
+
+    <div class="quote-form-bg-color">
+      <div class="quote">
+        <i>"Feedback is the breakfast of champions.”</i>
+        <b> - Ken Blanchard</b>
+      </div>
+    </div>
+
+    <section>
+      <div class="form-container ">
+        <form class="input-form">
+          <fieldset>
+            <!-- <legend>Write to us</legend> -->
+            <div class="glassmorphism">
+            <h2>WRITE TO US</h2>
+            <div class="label">
+              <label for="fname">FIRST NAME</label>
+            </div>
+            <br/>
+            <div class="input">
+              <input type="text" id="fname" name="fname" placeholder="EG:ANIRUDH" />
+            </div>
+            <br />
+            <div class="label">
+              <label for="college">COLLEGE</label>
+            </div>
+            <br/>
+            <div class="input">
+              <input list="colleges" name="college" id="college" placeholder="EG:SASTRA"/>
+            </div>
+            <datalist id="colleges">
+              <option value="SASTRA Thanjavur"></option>
+              <option value="IIT Madras"></option>
+              <option value="NIT Trichy"></option>
+              <option value="SSN Chennai"></option>
+            </datalist>
+            <br/>
+            <div class="label">
+              <label for="message">MESSAGE</label>
+            </div>
+            <br/>
+            <div class="input">
+              <input type="text"id="message" name="message" placeholder="WRITE YOUR COMMENTS">
+            </div>
+            <div class="submit-button">
+              <input type="submit" value="SUBMIT"/>
+            </div>
+          </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <span>
+          DAKSH, the international techno-management festival of SASTRA
+          University
+        </span>
+      </div>
+      
+      <div class="social-icons">
+        <a target="_blank" href="https://instagram.com"
+          ><img src="instagram-brands.svg" width="35px" height="35px">
+        </a>      
+        <a target="_blank" href="https://twitter.com">
+          <img src="twitter-brands.svg" width="35px" height="35px">
+        </a>           
+      </div>
+    </footer>
+
+    <div class="scroll-up-button">
+      <a href="#"><img src="arrow-up-solid.svg" width="20px" height="20px"></a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
